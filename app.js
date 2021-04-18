@@ -9,7 +9,7 @@ function MetaData(sample) {
 
     panelData.html("");
     Object.entries(received).forEach(([key, value]) => {
-      paneldata.append("h6").text(`${key}: ${value}`);
+      paneldata.append(`${key}: ${value}`);
     });
   });
 }
