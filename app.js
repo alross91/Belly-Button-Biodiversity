@@ -29,8 +29,8 @@ function DrawCharts(sample) {
         title: "Bacteria",
         xaxis: {title: "OTU ID"},
         yaxis: sample_values,
-        height: 600,
-        width: 1000
+        height: 1000,
+        width: 1800
     };
     var data4bubble = [
     {
