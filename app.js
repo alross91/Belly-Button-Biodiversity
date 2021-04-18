@@ -62,8 +62,7 @@ function DrawCharts(sample) {
       ];
   
       var chartLayout = {
-        title: "Top 10 OTU",
-        margin: { t: 30, l: 150 }
+        title: "Top OTU",
       };
   
       Plotly.newPlot("bar", barData, chartLayout);
